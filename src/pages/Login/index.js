@@ -8,6 +8,7 @@ export default function Login() {
     <Container>
       <Title>Title<small>Small</small></Title>
       <Paragraph>Lorem ipsum dolor sit amet.</Paragraph>
+      <button type="button">Send</button>
     </Container>
   );
 }
