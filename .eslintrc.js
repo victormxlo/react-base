@@ -30,5 +30,7 @@ module.exports = {
     "react/react-in-jsx-scope": 0,
     "import/no-extraneous-dependencies": 0,
     "no-unused-vars": 0,
+    "import/no-named-as-default": 0,
+    "default-param-last": 0,
   },
 };
