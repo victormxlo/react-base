@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 import { Nav } from './styled';
 
 export default function Header() {
-  // eslint-disable-next-line
-  const buttonClicked = useSelector(state => state.buttonClicked);
+  const buttonClicked = useSelector(state => state.example.buttonClicked);
 
   return (
     <Nav>
